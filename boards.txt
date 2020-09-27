@@ -1,7 +1,6 @@
 #############################################################
 #
-# Use this file to replace your boards.txt in order to burn
-# bootloaders on the device. Bootloader will always report
+# Bootloader will always report
 # atmega328p regardless whether ist is a atmega328, 
 # atmega328p or atmega328pb
 #
