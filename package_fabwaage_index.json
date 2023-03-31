@@ -12,6 +12,24 @@
 				{
 					"name": "Fablab Bayreuth AVR Boards",
 					"architecture": "avr",
+					"version": "0.1.0",
+					"category": "Fabwaage Arduino",
+					"url": "https://github.com/fablab-bayreuth/FabWaage/archive/v0.1.0.zip",
+					"checksum": "SHA-256:449bbff410056e3dcfc03640ef27fb1d4481bfdb2574864b9fe5a80178d8cab0",
+					"help": {
+						"online": "https://github.com/fablab-bayreuth/FabWaage/"
+					},
+					"archiveFileName": "FabWaage-0.1.0.zip",
+					"boards": [
+						{
+							"name": "FabWaage Board"
+						}
+					],
+					"size": "436621"
+				},
+				{
+					"name": "Fablab Bayreuth AVR Boards",
+					"architecture": "avr",
 					"version": "0.0.2",
 					"category": "Fabwaage Arduino",
 					"url": "https://github.com/fablab-bayreuth/FabWaage/archive/v0.0.2.zip",
