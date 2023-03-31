@@ -55,6 +55,7 @@ void loop(void){
   delay(1000);
   ntc.readResistance();
   float temp=ntc.getTemp(0);
+  scale.power_up();
   long adc = scale.read_average(5);
 
   Serial.print(temp);

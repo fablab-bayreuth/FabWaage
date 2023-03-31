@@ -4,13 +4,13 @@
 			"name": "FabWaage",
 			"maintainer": "Fablab Bayreuth",
 			"websiteURL": "http://www.fablab-bayreuth.de",
-			"email": "holzheu@bayceer.uni-bayreuth.de",
+			"email": "stefan.holzheu@uni-bayreuth.de",
 			"help": {
 				"online": "https://github.com/fablab-bayreuth/FabWaage/"
 			},
 			"platforms": [
 				{
-					"name": "BayEOS AVR Boards",
+					"name": "Fablab Bayreuth AVR Boards",
 					"architecture": "avr",
 					"version": "0.0.2",
 					"category": "Fabwaage Arduino",
