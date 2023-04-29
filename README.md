@@ -1,5 +1,5 @@
 # FabWaage-Boards (Fablab Bayreuth)
-This is the repository for the fabwaage-board. The libraries are designed to compile with Arduino IDE 1.8.x
+This is the repository for the fabwaage-board. The libraries are designed to compile with Arduino IDE 2.0.x
 
 ## Installation
 1. Copy the URL (https://raw.githubusercontent.com/fablab-bayreuth/FabWaage/master/package_fabwaage_index.json) to your additional boardmanager-URLs in your arduino IDE preferences (file/preferences)

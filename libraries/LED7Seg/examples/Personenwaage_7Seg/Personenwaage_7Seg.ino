@@ -19,11 +19,11 @@ LED7Seg led;
 uint8_t dout[] = {HX711_DOUT};
 uint8_t sck = HX711_SCK;
 long adc;
-#define MOVING_AVG 10
+#define MOVING_AVG 5
 #define MAX_DEV 0.1
-#define TAR_AVG 20
-#define WEIGHT_AVG 3
+#define TAR_AVG 10
 #define ONTIME 30
+#define TOUCH_POWER_PIN 3
 
 long adcs[MOVING_AVG];
 uint8_t current_i = 0;
@@ -55,6 +55,11 @@ void setup()
   Sleep.setupTimer2(2); //init timer2 to 1/16 sec
   pinMode(2, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(2), isr_int0, FALLING);
+
+#if TOUCH_PWR_PIN
+  pinMode(TOUCH_POWER_PIN,OUTPUT);
+  digitalWrite(TOUCH_POWER_PIN,HIGH);
+#endif
 
   Serial.begin(9600);
   Serial.println("Starting ...");
