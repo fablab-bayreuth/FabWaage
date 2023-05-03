@@ -56,7 +56,7 @@ void setup()
   pinMode(2, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(2), isr_int0, FALLING);
 
-#if TOUCH_PWR_PIN
+#if TOUCH_POWER_PIN
   pinMode(TOUCH_POWER_PIN,OUTPUT);
   digitalWrite(TOUCH_POWER_PIN,HIGH);
 #endif
